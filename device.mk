@@ -349,6 +349,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# Platform
+MSMSTEPPE := holi
+TARGET_BOARD_PLATFORM := $(MSMSTEPPE)
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.ese.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.ese.xml \
     frameworks/native/data/etc/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hce.xml \
