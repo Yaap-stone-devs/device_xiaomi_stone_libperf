@@ -465,7 +465,7 @@ PRODUCT_COPY_FILES += \
 # Remove unwanted packages
 ifeq ($(TARGET_DEBLOAT),true)
 PRODUCT_PACKAGES += \
-    RemovePackages   
+    RemovePackages
 endif
 
 # RIL
@@ -534,23 +534,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/common/libqti-perfd-client
 
 # Telephony
-PRODUCT_PACKAGES += \
-    extphonelib \
-    extphonelib-product \
-    extphonelib.xml \
-    extphonelib_product.xml \
-    ims-ext-common \
-    ims_ext_common.xml \
-    qti-telephony-hidl-wrapper \
-    qti_telephony_hidl_wrapper.xml \
-    qti-telephony-utils \
-    qti_telephony_utils.xml \
-    telephony-ext \
-    xiaomi-telephony-stub
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext \
-    xiaomi-telephony-stub
 
 # Update engine
 PRODUCT_PACKAGES += \
