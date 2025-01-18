@@ -67,5 +67,10 @@
     <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
     <bool name="config_show_smooth_display">true</bool>
 
+    <!-- Whether to show double tap ambient settings -->
+    <bool
+        name="config_supports_double_tap_ambient"
+        translatable="false"
+    >true</bool>
 
 </resources>
