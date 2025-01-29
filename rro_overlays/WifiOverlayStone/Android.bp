@@ -1,6 +1,0 @@
-runtime_resource_overlay {
-    name: "WifiOverlayStone",
-    theme: "WifiOverlay",
-    certificate: "platform",
-    product_specific: true
-}
