@@ -539,12 +539,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/common/libqti-perfd-client
 
 # Telephony
-PRODUCT_PACKAGES += \
-    xiaomi-telephony-stub
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext \
-    xiaomi-telephony-stub
 
 # Update engine
 PRODUCT_PACKAGES += \
