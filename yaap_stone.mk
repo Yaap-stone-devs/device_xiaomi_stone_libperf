@@ -23,6 +23,10 @@ PRODUCT_BRAND := Xiaomi
 TARGET_BUILD_GAPPS:=true
 TARGET_ENABLE_BLUR := true
 
+#Java
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
+
 BuildFingerprint=POCO/moonstone_p_global/moonstone:14/UKQ1.231003.002/V816.0.13.0.UMPMIXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
