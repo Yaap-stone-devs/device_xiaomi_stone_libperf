@@ -22,6 +22,8 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
 TARGET_BUILD_GAPPS:=true
 
+-include vendor/lineage-priv/keys/keys.mk
+
 #Java
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
