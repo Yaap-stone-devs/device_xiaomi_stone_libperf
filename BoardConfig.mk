@@ -250,5 +250,9 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 # Treble
 BOARD_VNDK_VERSION := current
 
+# Vulkan
+#
+# Vulcan
+TARGET_USES_VULKAN := true
 # Inherit the proprietary files
 include vendor/xiaomi/stone/BoardConfigVendor.mk
