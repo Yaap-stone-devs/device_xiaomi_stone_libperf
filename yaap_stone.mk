@@ -20,7 +20,6 @@ PRODUCT_NAME := yaap_stone
 PRODUCT_DEVICE := stone
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
-TARGET_BUILD_GAPPS:=true
 
 -include vendor/priv-keys/keys/keys.mk
 
